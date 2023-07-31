@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pixer</title>
-    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <!--<link rel="stylesheet" href="./css/main.css">-->
+    <link rel="stylesheet" href="./css/main.min.css">
 </head>
 <body>
     <header class="site-header">
@@ -22,7 +24,25 @@
                 <nav class="nav">
                     <ul class="nav-list">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Services</a>
+                            <a class="nav-link" href="#">Services
+                                <ul class="dropdown-list">
+                                    <li class="dropdown-item">
+                                        <a class="dropdown-link" href="#">Vebsayt</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a class="dropdown-link" href="#">Telegram bot</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a class="dropdown-link" href="#">SMM</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a class="dropdown-link" href="#">Grafik dizayn</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a class="dropdown-link" href="#">CRM tizim</a>
+                                    </li>
+                                </ul>
+                            </a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Portfolio</a>
@@ -43,7 +63,8 @@
         </div>
     </header>
 
-    <section class="hero">
+    <main>
+        <section class="hero">
         <div class="container">
             <div class="hero-inner">
                 <div class="hero-content">
@@ -67,9 +88,9 @@
                 </iframe>
             </div>
         </div>
-    </section>
+        </section>
 
-    <section class="courses">
+        <section class="courses">
         <div class="container">
             <div class="courses-inner">
                 <h2 class="couses-title">How can we help you?</h2>
@@ -172,9 +193,9 @@
                 </ul>
             </div>
         </div>
-    </section>
+        </section>
 
-    <section class="work">
+        <section class="work">
         <div class="container">
             <div class="work-inner">
                 <div class="work-title">
@@ -237,9 +258,9 @@
                 </ol>
             </div>
         </div>
-    </section>
+        </section>
 
-    <section class="form">
+        <section class="form">
         <div class="container">
             <div class="form-inner">
                 <div class="work-title form-title">
@@ -281,7 +302,8 @@
                 </form>
             </div>
         </div>
-    </section>
+        </section>
+    </main>
 
     <footer class="site-footer">
         <div class="container">
